@@ -33,13 +33,6 @@ abstract class aShape{
 
     private $name;
 
-	public function getName() {
-		return $this->name;
-	}
-
-	public function setName($value) {
-		$this->name = $value;
-	}
 
     abstract function calculateAge();
 }
